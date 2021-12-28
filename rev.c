@@ -1,13 +1,12 @@
 #include<stdio.h>
 #include<string.h>
-
- reverse(void)
+ reverse()
 {
     char mystrg[60];
     int leng, g;
 
     // Printing the program name and what the program will do
-    printf("Program in C for reversing a given string \n ");
+   // printf("Program in C for reversing a given string \n ");
     printf("Please insert the string you want to reverse: ");
 
     // fetch the input string from the user
@@ -20,5 +19,5 @@
     for(g = leng - 1; g >= 0; g--) {
         printf("%c", mystrg[g]);
     }
- //   return 0;
+ //    return 0;
 }
